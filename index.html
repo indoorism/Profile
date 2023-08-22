@@ -47,19 +47,19 @@ Music, and Fashion to fuel a deep appreciation for design.
                 <h3 class="project-title">Project Title</h3>
                 <p class="project-description">Project description goes here.</p>
                 <div class="slideshow-container">
-                    <img class="slideshow-image" src="images/Login.png" alt="Project Image 1">
-                    <img class="slideshow-image" src="images/home.png" alt="Project Image 2">
-                    <img class="slideshow-image" src="images/quesadilla.png" alt="Project Image 3">
-                    <img class="slideshow-image" src="images/Pantry + Butter.png" alt="Project Image 4">
-
-
-                    <!-- Add more images as needed -->
-                        <button class="prev-button" onclick="prevSlide()">&#10094;</button>
-                        <button class="next-button" onclick="nextSlide()">&#10095;</button>
-                    
-                </div>
-                <a class="project-link" href="project-details.html">View Details</a>
-            </div>
+    <img class="slideshow-image" src="images/Login.png" alt="Project Image 1">
+    <img class="slideshow-image" src="images/home.png" alt="Project Image 2">
+    <img class="slideshow-image" src="images/quesadilla.png" alt="Project Image 3">
+    <img class="slideshow-image" src="images/Pantry + Butter.png" alt="Project Image 4">
+    <button class="prev-button">&#10094;</button>
+    <button class="next-button">&#10095;</button>
+</div>
+<a class="project-link" href="project-details.html">View Details</a>
+</div>
+<script>
+    const slideshowContainer = document.querySelector('.slideshow-container');
+    setupSlideshow(slideshowContainer);
+</script>
 
             <div class="project">
                 <h3 class="project-title">Project 1: Mobile App Redesign</h3>
@@ -84,5 +84,6 @@ Music, and Fashion to fuel a deep appreciation for design.
     </section>
 
     <!-- ... Contact and other sections ... -->
+    <script src="script.js"></script>
 </body>
 </html>
